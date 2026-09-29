@@ -69,3 +69,34 @@
   align-items: center;
   gap: 2px;
 }
+
+.site-footer {
+  border-top: 1px solid #e2e8f0;
+  background: #f8fafc;
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.footer-credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+.footer-credits p {
+  margin: 0;
+}
+
+.powered-by {
+  color: #1e293b;
+}
+
+.powered-by strong {
+  color: #0f172a;
+  font-weight: 800;
+}

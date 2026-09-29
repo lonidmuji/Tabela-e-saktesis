@@ -1351,8 +1351,13 @@ export default function App() {
         )}
 
       </main>
-      <footer>
-        POWERED BY ORTO WEB LONID MUJI
+      <footer className="site-footer">
+        <div className="footer-credits">
+          <p>© {new Date().getFullYear()} All rights reserved</p>
+          <p className="powered-by">
+            Powered by <strong>OrtO web-Lonid Muji</strong>
+          </p>
+        </div>
       </footer>
     </div>
   );
